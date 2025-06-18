@@ -17,8 +17,8 @@ const SITE_CONFIG = {
                 content: "articles/poilievre.txt"
             },
             {
-                headline: "Trump Seen Picking Flower Petals to Decide on Tariffs",
-                summary: "New technological innovations are transforming how we work and live in unprecedented ways.",
+                headline: "Trump Now Determining Trade Policy by Picking Petals off Daisies",
+                summary: "",
                 category: "Politics", 
                 author: "William Sherwood",
                 date: "June 16, 2025",
@@ -27,7 +27,7 @@ const SITE_CONFIG = {
             },
             {
                 headline: "Pete Hegseth's New App Streamlines Military Leaks",
-                summary: "Exciting matches conclude with surprising outcomes as teams battle for the championship title.",
+                summary: "",
                 category: "Politics",
                 author: "William Sherwood",
                 date: "June 15, 2025", 
@@ -35,8 +35,8 @@ const SITE_CONFIG = {
                 content: "articles/hegseth.txt"
             },
             {
-                headline: "Jerome Powell Points at Stciker of Trump Every Time A Tariff Question is Asked",
-                summary: "Meteorologists warn of changing weather patterns affecting the region this week.",
+                headline: `Jerome Powell Now Defliecting Tariff Questions by Pointing to "I Did That" Trump Sticker`,
+                summary: "",
                 category: "Politics",
                 author: "William Sherwood",
                 date: "June 14, 2025",
@@ -45,7 +45,7 @@ const SITE_CONFIG = {
             },
             {
                 headline: "Elon Musk Involved In a Series of Rasputin-Adjacent Incidents",
-                summary: "Meteorologists warn of changing weather patterns affecting the region this week.",
+                summary: "",
                 category: "Politics",
                 author: "William Sherwood",
                 date: "June 14, 2025",
@@ -54,7 +54,7 @@ const SITE_CONFIG = {
             },
             {
                 headline: `J.D. Vance "Excited" About Getting Two Christmases Following Trump and Musk Break Up`,
-                summary: "Meteorologists warn of changing weather patterns affecting the region this week.",
+                summary: "",
                 category: "Politics",
                 author: "William Sherwood",
                 date: "June 14, 2025",
