@@ -1,6 +1,6 @@
 const SITE_CONFIG = {
-            title: "Daily News",
-            subtitle: "Your trusted source for breaking news",
+            title: "SAGE News",
+            subtitle: "Your most trusted source of global news",
             headerColor: [30, 50, 80],
             backgroundColor: [240, 240, 245],
             accentColor: [200, 50, 50]
@@ -85,7 +85,7 @@ const SITE_CONFIG = {
             textAlign(LEFT, TOP);
 
             for (let article of articles){
-              article.content = join(article.content, '');
+              // article.content = join(article.content, '');
             }
         }
 
@@ -286,7 +286,7 @@ const SITE_CONFIG = {
             
             // Calculate content height needed
             textSize(26);
-            let contentHeight = getTextHeight(article.content, width - 100, 16);
+            let contentHeight = getTextHeight(article.content, width - width/3, 16);
             let minContentHeight = 300;
             let actualContentHeight = max(minContentHeight, contentHeight + 60); // 60 for padding
             
@@ -295,10 +295,11 @@ const SITE_CONFIG = {
             stroke(200);
             rect(20, yPos, width - 40, actualContentHeight, 10);
             
+            let txt = article.content.join('\n');
             fill(50);
             textSize(26);
             textStyle(NORMAL);
-            text(article.content, 40, yPos + 30, width - 100);
+            text(txt, 40, yPos + 30, width - width/3);
         }
         
         function getTextHeight(txt, maxWidth, textSz) {
@@ -306,13 +307,13 @@ const SITE_CONFIG = {
             textSize(textSz);
             
             // First split by line breaks
-            let paragraphs = txt.split('\n');
+            let paragraphs = txt;
             let totalLines = 0;
             
             for (let paragraph of paragraphs) {
                 if (paragraph.trim() === '') {
                     // Empty line
-                    totalLines += 1;
+                    totalLines += 3;
                     continue;
                 }
                 
